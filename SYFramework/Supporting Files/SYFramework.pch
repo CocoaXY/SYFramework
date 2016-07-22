@@ -1,0 +1,23 @@
+//
+//  SYFramework.pch
+//  SYFramework
+//
+//  Created by cocoa on 7/22/16.
+//  Copyright © 2016 cocoa. All rights reserved.
+//
+
+#ifndef SYFramework_pch
+#define SYFramework_pch
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+
+#endif
+
+
+
+#endif /* SYFramework_pch */
