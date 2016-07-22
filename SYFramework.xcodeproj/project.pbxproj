@@ -16,6 +16,7 @@
 		CC7A67C41D421C34005A5027 /* SY_CommonTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A67BC1D421C34005A5027 /* SY_CommonTableViewData.m */; };
 		CC7A67C51D421C34005A5027 /* SYCommonTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A67BF1D421C34005A5027 /* SYCommonTableViewCell.h */; };
 		CC7A67C81D421CD2005A5027 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CC7A67C71D421CD2005A5027 /* README.md */; };
+		CC7A67CB1D421FAC005A5027 /* SYFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC7A67CA1D421FAC005A5027 /* SYFramework.podspec */; };
 		CC8476D91CF968000068ADCF /* SYFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8476D81CF968000068ADCF /* SYFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8477041CF969810068ADCF /* NSString+SY.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8476FA1CF969810068ADCF /* NSString+SY.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8477051CF969810068ADCF /* NSString+SY.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8476FB1CF969810068ADCF /* NSString+SY.m */; };
@@ -38,6 +39,7 @@
 		CC7A67BF1D421C34005A5027 /* SYCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCommonTableViewCell.h; sourceTree = "<group>"; };
 		CC7A67C71D421CD2005A5027 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC7A67C91D421CFA005A5027 /* SYFramework.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFramework.pch; sourceTree = "<group>"; };
+		CC7A67CA1D421FAC005A5027 /* SYFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SYFramework.podspec; sourceTree = "<group>"; };
 		CC8476D51CF968000068ADCF /* SYFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8476D81CF968000068ADCF /* SYFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFramework.h; sourceTree = "<group>"; };
 		CC8476DA1CF968000068ADCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
@@ -126,9 +128,10 @@
 		CC7A67C61D421CB8005A5027 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC8476DA1CF968000068ADCF /* Info.plist */,
 				CC7A67C91D421CFA005A5027 /* SYFramework.pch */,
 				CC7A67C71D421CD2005A5027 /* README.md */,
-				CC8476DA1CF968000068ADCF /* Info.plist */,
+				CC7A67CA1D421FAC005A5027 /* SYFramework.podspec */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7A67C21D421C34005A5027 /* Setting.plist in Resources */,
+				CC7A67CB1D421FAC005A5027 /* SYFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
