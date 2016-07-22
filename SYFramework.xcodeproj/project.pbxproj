@@ -17,6 +17,13 @@
 		CC7A67C51D421C34005A5027 /* SYCommonTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A67BF1D421C34005A5027 /* SYCommonTableViewCell.h */; };
 		CC7A67C81D421CD2005A5027 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CC7A67C71D421CD2005A5027 /* README.md */; };
 		CC7A67CB1D421FAC005A5027 /* SYFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC7A67CA1D421FAC005A5027 /* SYFramework.podspec */; };
+		CC7A67D41D422188005A5027 /* SYSettingCheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A67CD1D422188005A5027 /* SYSettingCheckCell.h */; };
+		CC7A67D51D422188005A5027 /* SYSettingCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A67CE1D422188005A5027 /* SYSettingCheckCell.m */; };
+		CC7A67D61D422188005A5027 /* SYSettingPortraitCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A67CF1D422188005A5027 /* SYSettingPortraitCell.h */; };
+		CC7A67D71D422188005A5027 /* SYSettingPortraitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A67D01D422188005A5027 /* SYSettingPortraitCell.m */; };
+		CC7A67D81D422188005A5027 /* SYSettingPortraitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7A67D11D422188005A5027 /* SYSettingPortraitCell.xib */; };
+		CC7A67D91D422188005A5027 /* SYSettingSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A67D21D422188005A5027 /* SYSettingSwitchCell.h */; };
+		CC7A67DA1D422188005A5027 /* SYSettingSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A67D31D422188005A5027 /* SYSettingSwitchCell.m */; };
 		CC8476D91CF968000068ADCF /* SYFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8476D81CF968000068ADCF /* SYFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8477041CF969810068ADCF /* NSString+SY.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8476FA1CF969810068ADCF /* NSString+SY.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8477051CF969810068ADCF /* NSString+SY.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8476FB1CF969810068ADCF /* NSString+SY.m */; };
@@ -40,6 +47,13 @@
 		CC7A67C71D421CD2005A5027 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC7A67C91D421CFA005A5027 /* SYFramework.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFramework.pch; sourceTree = "<group>"; };
 		CC7A67CA1D421FAC005A5027 /* SYFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SYFramework.podspec; sourceTree = "<group>"; };
+		CC7A67CD1D422188005A5027 /* SYSettingCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSettingCheckCell.h; sourceTree = "<group>"; };
+		CC7A67CE1D422188005A5027 /* SYSettingCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSettingCheckCell.m; sourceTree = "<group>"; };
+		CC7A67CF1D422188005A5027 /* SYSettingPortraitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSettingPortraitCell.h; sourceTree = "<group>"; };
+		CC7A67D01D422188005A5027 /* SYSettingPortraitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSettingPortraitCell.m; sourceTree = "<group>"; };
+		CC7A67D11D422188005A5027 /* SYSettingPortraitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYSettingPortraitCell.xib; sourceTree = "<group>"; };
+		CC7A67D21D422188005A5027 /* SYSettingSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSettingSwitchCell.h; sourceTree = "<group>"; };
+		CC7A67D31D422188005A5027 /* SYSettingSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSettingSwitchCell.m; sourceTree = "<group>"; };
 		CC8476D51CF968000068ADCF /* SYFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8476D81CF968000068ADCF /* SYFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFramework.h; sourceTree = "<group>"; };
 		CC8476DA1CF968000068ADCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
@@ -113,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				CC7A67BE1D421C34005A5027 /* Protocol */,
+				CC7A67CC1D422188005A5027 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +149,20 @@
 				CC7A67CA1D421FAC005A5027 /* SYFramework.podspec */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC7A67CC1D422188005A5027 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC7A67CD1D422188005A5027 /* SYSettingCheckCell.h */,
+				CC7A67CE1D422188005A5027 /* SYSettingCheckCell.m */,
+				CC7A67CF1D422188005A5027 /* SYSettingPortraitCell.h */,
+				CC7A67D01D422188005A5027 /* SYSettingPortraitCell.m */,
+				CC7A67D11D422188005A5027 /* SYSettingPortraitCell.xib */,
+				CC7A67D21D422188005A5027 /* SYSettingSwitchCell.h */,
+				CC7A67D31D422188005A5027 /* SYSettingSwitchCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		CC8476CB1CF968000068ADCF = {
@@ -204,7 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8477041CF969810068ADCF /* NSString+SY.h in Headers */,
+				CC7A67D61D422188005A5027 /* SYSettingPortraitCell.h in Headers */,
 				CC7A67AE1D4219F5005A5027 /* UIView+SY.h in Headers */,
+				CC7A67D91D422188005A5027 /* SYSettingSwitchCell.h in Headers */,
+				CC7A67D41D422188005A5027 /* SYSettingCheckCell.h in Headers */,
 				CC8477081CF969810068ADCF /* UIImage+SY.h in Headers */,
 				CC8477061CF969810068ADCF /* UIButton+SY.h in Headers */,
 				CC7A67C51D421C34005A5027 /* SYCommonTableViewCell.h in Headers */,
@@ -275,6 +307,7 @@
 			files = (
 				CC7A67C21D421C34005A5027 /* Setting.plist in Resources */,
 				CC7A67CB1D421FAC005A5027 /* SYFramework.podspec in Resources */,
+				CC7A67D81D422188005A5027 /* SYSettingPortraitCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7A67DA1D422188005A5027 /* SYSettingSwitchCell.m in Sources */,
 				CC8477051CF969810068ADCF /* NSString+SY.m in Sources */,
+				CC7A67D71D422188005A5027 /* SYSettingPortraitCell.m in Sources */,
 				CC84770B1CF969810068ADCF /* UITabBar+SY.m in Sources */,
 				CC7A67AF1D4219F5005A5027 /* UIView+SY.m in Sources */,
+				CC7A67D51D422188005A5027 /* SYSettingCheckCell.m in Sources */,
 				CC7A67C41D421C34005A5027 /* SY_CommonTableViewData.m in Sources */,
 				CC8477091CF969810068ADCF /* UIImage+SY.m in Sources */,
 				CC7A67C11D421C34005A5027 /* SY_CommonTableViewDelegate.m in Sources */,
